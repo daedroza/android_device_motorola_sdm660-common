@@ -69,6 +69,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.snd_mon.enable=false \
     vendor.audio.flac.sw.decoder.24bit=true \
     vendor.audio.hw.aac.encoder=true \
+    vendor.audio.feature.a2dp_offload.enable=false \
     vendor.audio.noisy.broadcast.delay=600 \
     vendor.audio.offload.buffer.size.kb=64 \
     vendor.audio.offload.gapless.enabled=false \
