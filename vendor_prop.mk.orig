@@ -18,8 +18,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.ras.enabled=false \
     ro.vendor.audio.sdk.ssr=false \
     ro.vendor.audio.sdk.fluencetype=none \
+<<<<<<< HEAD
     ro.config.media_vol_steps=30 \
-    ro.config.vc_call_vol_steps=30 \
+=======
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7 \
+>>>>>>> 5a14ce4... Set voice call volume steps to 7
     ro.qc.sdk.audio.fluencetype=none \
     ro.qc.sdk.audio.ssr=false \
     vendor.audio_hal.period_size=240 \
@@ -51,7 +55,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     bt.max.hfpclient.connections=1 \
     persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
     vendor.qcom.bluetooth.soc=cherokee \
-    vendor.bluetooth.soc=cherokee \
     ro.bluetooth.a4wp=false
 
 # Camera
