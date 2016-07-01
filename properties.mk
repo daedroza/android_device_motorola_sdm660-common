@@ -10,6 +10,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.video=false \
     persist.vendor.audio.hw.binder.size_kbyte=1024 \
     persist.vendor.audio.ras.enabled=false \
+    ro.config.vc_call_vol_steps=7 \
     ro.vendor.audio.sdk.ssr=false \
     ro.qc.sdk.audio.ssr=false \
     vendor.audio_hal.period_size=240 \
