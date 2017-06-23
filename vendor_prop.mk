@@ -18,6 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.ras.enabled=false \
     ro.vendor.audio.sdk.ssr=false \
     ro.vendor.audio.sdk.fluencetype=none \
+    ro.config.media_vol_steps=30 \
     ro.qc.sdk.audio.fluencetype=none \
     ro.qc.sdk.audio.ssr=false \
     vendor.audio_hal.period_size=240 \
