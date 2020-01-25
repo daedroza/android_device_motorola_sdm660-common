@@ -23,6 +23,7 @@
 #
 
 $(call inherit-product, vendor/motorola/sdm660-common/sdm660-common-vendor.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -80,15 +81,6 @@ PRODUCT_PACKAGES += \
     libbson.vendor \
     libxml2 \
     Snap
-
-# Dalvik
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.heapgrowthlimit=256m \
-    dalvik.vm.heapstartsize=8m \
-    dalvik.vm.heapsize=512m \
-    dalvik.vm.heaptargetutilization=0.75 \
-    dalvik.vm.heapminfree=512k \
-    dalvik.vm.heapmaxfree=8m
 
 # Display
 PRODUCT_PACKAGES += \
