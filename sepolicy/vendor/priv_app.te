@@ -1,0 +1,1 @@
+allow priv_app moto_boot_prop:file { getattr open read };
