@@ -1,1 +1,2 @@
 get_prop(system_app, vendor_fm_prop)
+allow system_app sysfs_fingerprint:dir search;
