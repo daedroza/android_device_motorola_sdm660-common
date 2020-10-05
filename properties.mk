@@ -99,6 +99,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.preview.ubwc=0 \
     vendor.video.disable.ubwc=1
 
+# b/166675194
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.camera.provider24.disable_mem_init=1
+
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
