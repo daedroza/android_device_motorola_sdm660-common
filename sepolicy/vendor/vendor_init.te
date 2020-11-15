@@ -10,8 +10,13 @@ allow vendor_init {
   fingerprint_data_file
 }:dir { create search getattr open read setattr ioctl write add_name remove_name rmdir relabelfrom };
 
+# Allow vendor_init to relabel unlabeled files and directories
+allow vendor_init unlabeled:{ dir file } { getattr relabelfrom };
+
 allow vendor_init proc_uid_cpupower:file write;
 
 get_prop(vendor_init, moto_boot_prop)
 set_prop(vendor_init, moto_boot_prop)
 set_prop(vendor_init, vendor_fm_prop)
+
+allow vendor_init system_fps_data_file:dir create_dir_perms; 
