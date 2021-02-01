@@ -11,3 +11,4 @@ libhta_controller.so
 libhta_hexagon_runtime.so
 unnhal-acc-hta.so
 libadspd.so
+libmcf-qc-fd-offline.so
